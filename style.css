@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    }
+    body{
+        height: max-content;
+        width: 200vh;
+    }
+    .one{
+    display: flex;
+    margin-left: 270px;
+    justify-content:space-between;
+    padding: 10px;
+    }
+    .search{
+    border: 1px solid gray;
+    padding: 10px;
+    padding-right: 700px;
+    }
+    
+    .sort-mkt{
+    border: 1px solid gray;
+    padding: 10 40;
+    background-color: red;
+    color: white;
+    }
+    .sort-percnt{
+    border: 1px solid gray;
+    padding: 10 40;
+    background-color: red;
+    color: white;
+    }
+    .imgid{
+        height: 50px;
+        width: 50px;
+    }
+    .id{
+        border: 1px solid gray;
+        padding: 1 1; 
+        border-radius: 50%;
+    }
+    /* ==============section========================= */
+.sidebar{
+    margin-top: -70px;
+    display: block;
+    width: 270px;
+    /* border: 1px solid grey; */
+}
+.smallred{
+    color: red;
+    padding: 10 60;
+
+}
+.home{
+    height: 180px;
+    display: block;
+}
+.logo{
+    width: 200px;
+}
+.hor{
+    padding: 10 10;
+}
+.ho1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    /* border: 1px solid grey; */
+        padding: 10 20;
+    
+}
+.ho2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid grey; */
+    padding: 10 20;
+    
+    margin-left: 20px;
+    /* display: inline-block; */
+    /* height: 25%  */
+}
+.ho3{
+    padding: 70px;
+}
+/* ====================sec-three====================== */
+.three{
+    margin-top: -912px;
+    margin-left: 270px;
+    width: 1250px;
+    /* height: 1000px; */
+    /* background-color: green; */
+}
+.imgbanner{
+    width: 1247px;
+}
+.banner{
+    margin-top: 72px;
+    /* background-color: blueviolet; */
+
+}
+.display{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 1.3rem;
+    margin-bottom: 50px;
+    
+}
+
+.card{
+    /* border: 1px solid grey; */
+    padding: 5;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+ul li{ 
+    list-style: none;
+    
+}
+
+.imgfood{
+    width: 390px;
+}
